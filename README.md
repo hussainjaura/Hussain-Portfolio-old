@@ -29,7 +29,7 @@ A fully featured e-commerce site built for internship/placement.
 A relational database for an online store, taken from business requirements through normalisation and an ERD to a working SQLite implementation, with a Python desktop app for managing it.
 
 **Github Repository:**
-[https://github.com/hussainjaura/YOUR-REPO-NAME]
+[https://github.com/hussainjaura/online-retail-database]
 
 **Tech Stack:** SQLite, SQL, Python, Tkinter, Pillow, XML (ElementTree), DB Browser for SQLite
 
