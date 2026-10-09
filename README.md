@@ -25,7 +25,28 @@ A fully featured e-commerce site built for internship/placement.
 - Logging with Winston & Error Handling
 - Jest for Unit Testing
 
-### 2. Jaura's Task Manager App (Internship Project)
+### 2. Online Retail Store – Relational Database System (University Assessment)
+A relational database for an online store, taken from business requirements through normalisation and an ERD to a working SQLite implementation, with a Python desktop app for managing it.
+
+**Github Repository:**
+[https://github.com/hussainjaura/YOUR-REPO-NAME]
+
+**Tech Stack:** SQLite, SQL, Python, Tkinter, Pillow, XML (ElementTree), DB Browser for SQLite
+
+**Features:**
+- Requirements analysis and normalisation from a flat file to 3NF (1NF → 2NF → 3NF documented)
+- ERD with 6 related tables (Customers, Orders, OrderItems, Products, Suppliers, Inventory)
+- Primary/foreign keys, CHECK and NOT NULL constraints, and ON DELETE CASCADE / RESTRICT rules
+- 2 triggers that keep stock in sync automatically (reduce on order, restore on cancellation, log every movement)
+- 2 views for business reporting (customer order summary, top-selling products)
+- Custom SQL functions written in Python and registered with SQLite
+- Indexes on join columns, verified with EXPLAIN QUERY PLAN
+- BLOB image storage and validated XML product specifications
+- Tkinter GUI with full CRUD, input validation and parameterised queries (SQL injection protection)
+- Runnable SQL test suite for triggers, views, constraints and indexes
+
+
+### 3. Jaura's Task Manager App (Internship Project)
 Live App: https://task-manager-hoaa.onrender.com
 
 ### Github Repository:
@@ -44,7 +65,7 @@ A personal productivity/task management web app.
 - Structured MongoDB schema with Mongoose
 - Secure and scalable backend with environment variable handling
 
-### 3. Jaura's Theme Park Website (University Assessment)
+### 4. Jaura's Theme Park Website (University Assessment)
 
 A full-stack theme park website with database-driven content and an interactive game.
 
