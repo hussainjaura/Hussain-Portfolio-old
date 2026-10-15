@@ -8,7 +8,7 @@ Scroll below to explore live demos, source code, documentation, and a little mor
 
 ## Projects
 
-### 1. HalalNearMe (Latest Project)
+### 1. HalalNearMe (React Project)
 
 [![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_App-green?style=for-the-badge)](YOUR_AMPLIFY_URL_HERE)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/hussainjaura/HalalNearMe)
