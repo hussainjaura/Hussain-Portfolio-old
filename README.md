@@ -10,7 +10,7 @@ Scroll below to explore live demos, source code, documentation, and a little mor
 
 ### 1. HalalNearMe (React Project)
 
-[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_App-green?style=for-the-badge)](YOUR_AMPLIFY_URL_HERE)
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_App-green?style=for-the-badge)](https://main.d3uol1yp55se1c.amplifyapp.com)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/hussainjaura/HalalNearMe)
 
 A full-stack web app that helps users find halal restaurants near them anywhere in the UK, using live GPS or city search.
