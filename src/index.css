@@ -183,6 +183,9 @@ main { max-width: 1180px; margin: 0 auto; padding: 0 28px; }
 .xp-head { display: flex; align-items: center; gap: 16px; margin-bottom: 18px; flex-wrap: wrap; }
 .xp-head h3 { font-size: 19px; }
 
+.xp-summary { margin-bottom: 14px; }
+.xp-card .small-tags { margin: 16px 0 0; }
+
 /* skills */
 .skills-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 22px; }
 .skill-card { padding: 30px; }
@@ -232,6 +235,11 @@ main { max-width: 1180px; margin: 0 auto; padding: 0 28px; }
 .proj-links a { display: inline-flex; align-items: center; gap: 6px; color: var(--muted); transition: color 0.2s; }
 .proj-links a:hover { color: var(--text); }
 .proj-links svg { width: 17px; height: 17px; }
+
+/* certificates */
+.cert-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 22px; max-width: 960px; margin: 0 auto; }
+.cert-card { padding: 26px; display: flex; gap: 18px; align-items: center; }
+.cert-card h3 { font-size: 17px; margin-bottom: 4px; }
 
 /* footer */
 .footer { max-width: 1180px; margin: 0 auto; padding: 120px 28px 30px; }
@@ -285,6 +293,7 @@ main { max-width: 1180px; margin: 0 auto; padding: 0 28px; }
   .photo-fallback { font-size: 96px; }
   .skills-grid { grid-template-columns: 1fr; }
   .proj-grid { grid-template-columns: 1fr; }
+  .cert-grid { grid-template-columns: 1fr; }
   .edu-card { flex-direction: column; align-items: flex-start; }
   .pill { margin-left: 0; }
   .timeline { padding-left: 26px; }

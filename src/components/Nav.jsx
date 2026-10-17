@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { profile } from '../data.js'
 import { GithubIcon, LinkedinIcon, YoutubeIcon, MenuIcon, CloseIcon } from './Icons.jsx'
 
-const links = ['Experience', 'Skills', 'Education', 'Projects']
+const links = ['Experience', 'Skills', 'Education', 'Projects', 'Certificates']
 
 export default function Nav() {
   const [open, setOpen] = useState(false)

@@ -7,6 +7,7 @@ import Education from './components/Education.jsx'
 import Different from './components/Different.jsx'
 import Achievements from './components/Achievements.jsx'
 import Projects from './components/Projects.jsx'
+import Certificates from './components/Certificates.jsx'
 import Footer from './components/Footer.jsx'
 import useReveal from './hooks/useReveal.js'
 
@@ -25,6 +26,7 @@ function App() {
         <Different />
         <Achievements />
         <Projects />
+        <Certificates />
       </main>
       <Footer />
     </>

@@ -5,7 +5,7 @@ export const profile = {
   role: 'Full Stack Software Engineer',
   headline: 'Turning ideas into fast, reliable web apps with Full Stack Engineering',
   intro:
-    "I'm a Software Engineering student at Solent University in Southampton. I build full stack apps with React, Node.js and Express, ship them to the cloud on AWS, and I'm always looking for the next hard problem to solve.",
+    "I'm a Software Engineering student at Solent University in Southampton, and I've just finished a Software Engineer internship at Co-op. I build full stack apps with React, Node.js and Express, ship them to the cloud on AWS, and I'm always looking for the next hard problem to solve.",
   location: 'Southampton, UK',
   email: 'hussainjaura10@gmail.com',
   // put ur photo in public/ with this name
@@ -19,39 +19,42 @@ export const profile = {
   },
 }
 
-// placeholder till i add my linkedin stuff
 export const experience = [
   {
-    role: 'Full Stack Developer (Internship)',
-    company: 'Jaura & Co',
-    location: 'UK',
-    period: 'Dates to add',
-    logo: 'J&C',
+    role: 'Software Engineer Intern',
+    company: 'Co-op',
+    location: 'London, UK · Hybrid',
+    period: 'Jan 2026 - Aug 2026',
+    logo: 'Co',
+    summary: "Part of the engineering team building and maintaining scalable apps used across Co-op's digital platforms.",
     points: [
-      'Built the full e-commerce site with Node.js, Express, MySQL and Sequelize.',
-      'Integrated Stripe payments, a persistant cart and AJAX product search.',
-      'Added Winston logging, Helmet security headers and Jest unit tests.',
-      'Built a real time task manager with MongoDB and Socket.IO.',
+      'Worked with product, design and QA teams in an agile enviroment.',
+      'Contributed to full stack feature development using modern web tech.',
+      'Helped build and maintain RESTful APIs.',
+      'Improved app performance and resolved production issues.',
+      'Took part in code reviews and followed engineering best practices.',
+      'Supported testing and deployment processes.',
     ],
+    tags: ['Full stack', 'REST APIs', 'Docker', 'Agile', 'Web Engineering', 'Software Design'],
   },
 ]
 
 export const skills = [
   {
     title: 'Languages',
-    items: ['JavaScript', 'SQL', 'Python', 'HTML5', 'CSS3'],
+    items: ['JavaScript', 'TypeScript', 'Python', 'SQL', 'HTML5', 'CSS3'],
   },
   {
     title: 'Technologies & Frameworks',
-    items: ['React', 'Node.js', 'Express.js', 'Vite', 'React Router', 'Socket.IO', 'EJS', 'Mongoose', 'Sequelize', 'Jest'],
+    items: ['React', 'Node.js', 'Express.js', 'Django', 'Vite', 'Socket.IO', 'EJS', 'Mongoose', 'Sequelize', 'Jest'],
   },
   {
     title: 'Cloud, DevOps & Databases',
-    items: ['AWS Lambda', 'AWS Amplify', 'GitHub Actions', 'Render', 'Neon', 'PostgreSQL', 'MySQL', 'MongoDB', 'SQLite', 'Git'],
+    items: ['AWS Lambda', 'AWS Amplify', 'Docker', 'GitHub Actions', 'Render', 'PostgreSQL', 'MySQL', 'MongoDB', 'SQLite', 'Git'],
   },
   {
     title: 'Core Competencies',
-    items: ['REST API design', 'JWT & session auth', 'Serverless architecture', 'MVC', 'Payments (Stripe)', 'Real time apps', 'Testing & logging', 'Data structures & algorithms'],
+    items: ['Full stack development', 'REST APIs & web services', 'Data structures & algorithms', 'Database design', 'Responsive UI / UX', 'Agile & testing', 'Debugging', 'AI & LLMs'],
   },
 ]
 
@@ -60,10 +63,23 @@ export const education = [
     school: 'Solent University',
     degree: 'BSc (Hons) Software Engineering',
     location: 'Southampton, UK',
-    period: 'Dates to add',
-    note: 'Top mark (93%) on the full stack web assessment',
+    period: 'Sep 2024 - Jun 2027',
+    note: 'Currently maintaining First-Class level, working on my final year dissertation. Awarded a 20% tuition discount for academic performance.',
     logo: 'SU',
   },
+  {
+    school: 'Lahore Grammar School',
+    degree: 'Matriculation (SSC), Computer Science / IT',
+    location: 'Lahore, Pakistan',
+    period: 'May 2012 - Sep 2022',
+    note: 'Graduated with 1,057 marks.',
+    logo: 'LGS',
+  },
+]
+
+export const certificates = [
+  { name: 'Certificate in Practical Artificial Intelligence', issuer: 'Solent University', date: 'Feb 2026', logo: 'SU', skills: 'LLMs · AI' },
+  { name: 'Getting Started with Artificial Intelligence', issuer: 'IBM', date: 'Feb 2026', logo: 'IBM', skills: 'Algorithm design · Back-end' },
 ]
 
 export const different = [
@@ -73,9 +89,9 @@ export const different = [
 ]
 
 export const achievements = [
-  { title: 'Highest mark, 93%', desc: 'Top grade on the full stack Theme Park assessment at Solent University.', icon: '🏆' },
-  { title: 'Serverless app in production', desc: 'HalalNearMe runs live on AWS Lambda and Amplify with real users and auth.', icon: '☁️' },
-  { title: 'Internship delivery', desc: 'Shipped a Stripe powered e-commerce site and a real time task app during my internship.', icon: '🚀' },
+  { title: 'Software Engineer Intern at Co-op', desc: 'Eight months on a real engineering team shipping features and APIs used across Co-op digital platforms.', icon: '💼' },
+  { title: '20% tuition scholarship', desc: 'Awarded a 20% tuition discount at Solent University for academic performance.', icon: '🎓' },
+  { title: 'Highest mark, 93%', desc: 'Top grade on the full stack Theme Park assessment, while keeping a First-Class average.', icon: '🏆' },
 ]
 
 export const projects = [
