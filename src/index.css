@@ -128,7 +128,7 @@ main { max-width: 1180px; margin: 0 auto; padding: 0 28px; }
   transform: translateZ(40px);
   box-shadow: 0 30px 80px -20px rgba(109, 40, 217, 0.6);
 }
-.hero-photo { width: 100%; height: 100%; object-fit: cover; display: block; }
+.hero-photo { width: 100%; height: 100%; object-fit: cover; object-position: 50% 30%; display: block; }
 .photo-fallback { width: 100%; height: 100%; display: grid; place-items: center; font-family: var(--head); font-weight: 800; font-size: 130px; animation: bob 4s ease-in-out infinite; }
 .photo-fallback span { background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
 @keyframes bob { 50% { transform: translateY(-10px); } }
