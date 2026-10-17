@@ -1,8 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// base has to match the repo name for github pages
+// relative base so it works on github pages whatever the repo is called
 export default defineConfig({
   plugins: [react()],
-  base: '/Hussain-Portfolio/',
+  base: './',
 })

@@ -192,8 +192,8 @@ npm install
 npm run dev
 ```
 
-Then open the link it prints (http://localhost:5173/Hussain-Portfolio/).
+Then open the link it prints (http://localhost:5173/).
 
 - All the content (projects, skills, experience, links) is in `src/data.js`
 - Put your photo in `public/me.jpg` and your CV in `public/cv.pdf` (then set `cv: 'cv.pdf'` in `src/data.js`)
-- Pushing to `main` deploys to GitHub Pages through `.github/workflows/deploy.yml` (Settings > Pages > Source: GitHub Actions)
+- `npm run deploy` builds the site and publishes it to the `gh-pages` branch (Settings > Pages > Source: Deploy from a branch, `gh-pages`)
