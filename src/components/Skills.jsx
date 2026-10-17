@@ -1,19 +1,22 @@
-import Section from './Section.jsx'
+import Heading from './Heading.jsx'
+import TiltCard from './TiltCard.jsx'
 import { skills } from '../data.js'
 
 export default function Skills() {
   return (
-    <Section id="skills" num="04" title="Skills & tools">
+    <section id="skills" className="section">
+      <Heading>Things I'm <span className="grad">great at...</span></Heading>
       <div className="skills-grid">
-        {skills.map((s) => (
-          <div key={s.group} className="card">
-            <h4>{s.group}</h4>
-            <ul className="chips">
-              {s.items.map((i) => <li key={i}>{i}</li>)}
+        {skills.map((s, i) => (
+          <TiltCard key={s.title} className="skill-card reveal">
+            <span className="big-num">0{i + 1}</span>
+            <h3>{s.title}</h3>
+            <ul className="tags">
+              {s.items.map((t) => <li key={t}>{t}</li>)}
             </ul>
-          </div>
+          </TiltCard>
         ))}
       </div>
-    </Section>
+    </section>
   )
 }

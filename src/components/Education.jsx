@@ -1,21 +1,24 @@
-import Section from './Section.jsx'
+import Heading from './Heading.jsx'
+import TiltCard from './TiltCard.jsx'
 import { education } from '../data.js'
 
 export default function Education() {
   return (
-    <Section id="education" num="05" title="Education">
-      <div className="timeline">
+    <section id="education" className="section">
+      <Heading>Highlights of my <span className="grad">Education...</span></Heading>
+      <div className="edu-grid">
         {education.map((e) => (
-          <div key={e.school} className="timeline-item">
-            <h3>{e.degree}</h3>
-            <p className="accent">{e.school}</p>
-            <p className="mono muted small">{e.period}</p>
-            <ul className="arrow-list">
-              {e.points.map((p) => <li key={p}>{p}</li>)}
-            </ul>
-          </div>
+          <TiltCard key={e.school} className="edu-card reveal" max={6}>
+            <div className="logo-badge big">{e.logo}</div>
+            <div>
+              <h3>{e.degree}</h3>
+              <p className="accent">{e.school}</p>
+              <p className="muted small">{e.period} • {e.location}</p>
+              <p className="edu-note">{e.note}</p>
+            </div>
+          </TiltCard>
         ))}
       </div>
-    </Section>
+    </section>
   )
 }

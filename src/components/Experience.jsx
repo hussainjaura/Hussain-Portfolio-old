@@ -1,31 +1,31 @@
-import { useState } from 'react'
-import Section from './Section.jsx'
+import Heading from './Heading.jsx'
+import TiltCard from './TiltCard.jsx'
 import { experience } from '../data.js'
 
 export default function Experience() {
-  const [active, setActive] = useState(0)
-  const job = experience[active]
-
   return (
-    <Section id="experience" num="02" title="Where I've worked">
-      <div className="tabs">
-        <div className="tab-list" role="tablist">
-          {experience.map((e, i) => (
-            <button key={e.company + i} className={i === active ? 'active' : ''} onClick={() => setActive(i)}>
-              {e.company}
-            </button>
-          ))}
-        </div>
-        <div className="tab-panel">
-          <h3>
-            {job.title} <span className="accent">@ {job.company}</span>
-          </h3>
-          <p className="mono muted small">{job.period} · {job.location}</p>
-          <ul className="arrow-list">
-            {job.points.map((p) => <li key={p}>{p}</li>)}
-          </ul>
-        </div>
+    <section id="experience" className="section">
+      <Heading>Highlights of my <span className="grad">Experience</span> so far...</Heading>
+      <div className="timeline">
+        {experience.map((job) => (
+          <div key={job.company + job.role} className="timeline-row reveal">
+            <span className="timeline-dot" />
+            <TiltCard className="xp-card" max={5}>
+              <div className="xp-head">
+                <div className="logo-badge">{job.logo}</div>
+                <div>
+                  <h3>{job.role}</h3>
+                  <p className="muted">{job.company} • {job.location}</p>
+                </div>
+                <span className="pill">{job.period}</span>
+              </div>
+              <ul className="dot-list">
+                {job.points.map((p) => <li key={p}>{p}</li>)}
+              </ul>
+            </TiltCard>
+          </div>
+        ))}
       </div>
-    </Section>
+    </section>
   )
 }

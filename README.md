@@ -180,3 +180,20 @@ I'm a strong believer in continuous learning, clean code practices, and teamwork
 
 [![Email](https://img.shields.io/badge/Email-hussainjaura10@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hussainjaura10@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammad-hussain-jaura-b303482b1/)
+
+---
+
+## Running the portfolio site
+
+The site in this repo is built with React and Vite.
+
+```bash
+npm install
+npm run dev
+```
+
+Then open the link it prints (http://localhost:5173/Hussain-Portfolio/).
+
+- All the content (projects, skills, experience, links) is in `src/data.js`
+- Put your photo in `public/me.jpg` and your CV in `public/cv.pdf` (then set `cv: 'cv.pdf'` in `src/data.js`)
+- Pushing to `main` deploys to GitHub Pages through `.github/workflows/deploy.yml` (Settings > Pages > Source: GitHub Actions)
